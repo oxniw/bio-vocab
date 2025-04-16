@@ -1,0 +1,11 @@
+@keyframes faddein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadein {
+    animation: faddein 0.5s ease-in-out;
+}

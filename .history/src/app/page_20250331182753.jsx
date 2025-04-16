@@ -1,0 +1,18 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className="w-full relative bg-black">
+      <div className="w-full h-full justify-center items-center flex">
+          <Image
+            className="dark:invert"
+            src="/com/cy4d.png"
+            alt="Next.js logo"
+            width={275}
+            height={408}
+            priority
+          />
+      </div>
+    </div>
+  );
+}

@@ -157,7 +157,7 @@ export default function Home() {
         />
         <Image
           className="transition duration-300 hover:filter hover:drop-shadow-[0_0_8px_rgb(0,255,0)]"
-          src="/biogame/I.svg"
+          src="/biogame/i.svg"
           alt="Next.js logo"
           width={612 }
           height={408 }
